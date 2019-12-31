@@ -23,7 +23,6 @@ body{
 
 #mainHeader a{
     color:white;
-    text-emphasis-style: bold;
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
@@ -112,16 +111,18 @@ a{
     color:white;
     font-size: 20px;
     line-height: 1.6em;
-    padding-top: 30px;
-    box-sizing: border-box;
-    float: left;
-    width:70%;
+    padding-top:60px;
+    padding-right: 10px;
+    float:left;
+    width: 50%;
 }
 
 #shoucase img{
-    float:right;
-    box-sizing: border-box;
-    width: 200px;
+    float: left;
+    border: none;
+    display: block;
+    align-self: auto;
+    padding: 10px 2px;
 }
 
 #main{
@@ -138,6 +139,14 @@ a{
     color:white;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.linkExtern{
+    Color:#555;
+}
+
+.linkExtern:hover{
+    color:rgb(133, 1, 138);
 }
 
 #mainFooter{
