@@ -7,7 +7,6 @@ body{
     margin:0;
 }
 
-
 #mainHeader {
     background-color: #f2c391;
     color:#fff;
@@ -28,8 +27,6 @@ body{
     font-size: 18px;
     padding-right: 15px;
 }
-
-
 
 
 a{
@@ -74,8 +71,6 @@ a{
 }
 
 .container{
-    position: relative;
-    
     width: 80%;
     margin:auto;
     overflow:hidden;
@@ -104,27 +99,62 @@ a{
     padding-right: 15px;
 }
 
-.casuta{
-    float:left;
-    width: 33%;
-    border:1px dotted #333;
-    padding: 5px;
-    margin:0 0.5px;
-    box-sizing: border-box;
-    border-radius: 15px;
+
+.myForm{
+    padding:20px;
 }
 
+.myForm .form-group{
+    padding-bottom: 15px;
+}
 
+.myForm label{
+    display: block;
+}
+
+.myForm input [type="text"], .myForm textarea{
+    padding:8px;
+    width: 100%;
+}
+
+.buttonSubmit{
+    background-color: #0e4d42;
+    color:rgb(255, 255, 255);
+    padding: 10px 10px;  
+    border:none;
+    border-radius: 5px;
+}
+
+.buttonSubmit:hover{
+    background: red;
+}
+
+.linkExtern{
+    Color:#555;
+}
+
+.linkExtern:hover{
+    color:rgb(133, 1, 138);
+}
 
 #mainFooter{
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 2.5em;
+    width: 100%;    
     background: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+
 }
 
+@media(max-width:600px){
+    #main{
+        widows: 100%;
+        float:none;
+    } 
+    #sidebar{
+        widows: 100%;
+        float:none;
+    }
+ }
