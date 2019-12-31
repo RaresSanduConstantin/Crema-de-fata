@@ -7,6 +7,20 @@ body{
     margin:0;
 }
 
+.button{
+    background-color:  #87a2e8;
+    color:white;
+    padding:10px 15px;
+    border:none;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background: red;
+    color:#fff;
+}
+
+
 .container{
     width: 80%;
     margin:auto;
