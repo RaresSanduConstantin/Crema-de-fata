@@ -140,7 +140,8 @@ a{
 #mainFooter{
     position: absolute;
     bottom: 0;
-    width: 100%;    
+    width: 96.9%; 
+    height: 2.6em;   
     background: #333;
     color: #fff;
     text-align: center;
