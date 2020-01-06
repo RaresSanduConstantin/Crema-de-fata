@@ -120,7 +120,7 @@ a{
     position: absolute;
     clear: both;
     bottom: 0;
-    width: 96.9%;
+    /* width: 96.9%; */
     height: 2.3em;
     background: #333;
     color: #fff;
